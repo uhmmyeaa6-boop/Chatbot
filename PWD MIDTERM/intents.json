@@ -1,0 +1,156 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "hiya",
+        "good day",
+        "how are you",
+        "whats up"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "I'm doing good! How can i help you today?",
+        "Hi there! How can I help you today?",
+        "Hey! What can I do for you in the library?"
+      ]
+    },
+    {
+      "tag": "book",
+      "patterns": [
+        "book",
+        "books",
+        "novel",
+        "novels",
+        "find a book",
+        "search book",
+        "recommend a book",
+        "suggest a book",
+        "looking for a book"
+      ],
+      "responses": [
+        "Sure, what book are you looking for? You can search by author, title or genre.",
+        "Okay! Tell me the author, title, or genre you want."
+      ]
+    },
+    {
+      "tag": "author",
+      "patterns": [
+        "author",
+        "writer",
+        "who wrote it",
+        "written by",
+        "search by author"
+      ],
+      "responses": [
+        "Please enter the author's name.",
+        "Sure, please type the author's name."
+      ]
+    },
+    {
+      "tag": "genre",
+      "patterns": [
+        "genre",
+        "genres",
+        "category",
+        "type",
+        "kind",
+        "search by genre"
+      ],
+      "responses": [
+        "Please enter the genre.",
+        "Okay, what genre would you like?"
+      ]
+    },
+    {
+      "tag": "title",
+      "patterns": [
+        "title",
+        "name of the book",
+        "called",
+        "book called",
+        "search by title"
+      ],
+      "responses": [
+        "Please enter the title.",
+        "Alright,what’s the book title?"
+      ]
+    },
+    {
+      "tag": "dostoevsky",
+      "patterns": [
+        "dostoevsky",
+        "fyodor dostoevsky",
+        "russian philosopher",
+        "russian novelist"
+      ],
+      "responses": [
+        "dostoevsky:Crime and Punishment is available to borrow.",
+        "We have Dostoevsky. Crime and Punishment is available to borrow."
+      ]
+    },
+    {
+      "tag": "crime_and_punishment",
+      "patterns": [
+        "crime and punishment",
+        "crime & punishment",
+        "crime n punishment"
+      ],
+      "responses": [
+        "Crime and Punishment is available to borrow.",
+        "Yes, we have Crime and Punishment is available to borrow."
+      ]
+    },
+    {
+      "tag": "horror",
+      "patterns": [
+        "horror",
+        "scary",
+        "horror books",
+        "scary books",
+        "spooky",
+        "thriller"
+      ],
+      "responses": [
+        "Horror: The Little Cat is available to borrow.",
+        "In horror, The Little Cat is available to borrow."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thx",
+        "thank u",
+        "appreciate it"
+      ],
+      "responses": [
+        "You are welcome!",
+        "No problem!",
+        "Happy to help!"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "goodbye",
+        "bye",
+        "see you",
+        "cya",
+        "bye bye",
+        "see you later",
+        "exit",
+        "quit"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you next time!",
+        "Bye! Come back soon."
+      ]
+    }
+  ]
+}
